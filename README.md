@@ -4,6 +4,11 @@ bundle install
 
 yarn install --check-files
 
+rails db:create
+
+Run:
+rails db:migrate
+
 rails s
 
 # Port 3000
