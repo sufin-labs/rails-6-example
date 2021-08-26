@@ -4,8 +4,6 @@ bundle install
 
 yarn install --check-files
 
-rails
-
 rails s
 
 # Port 3000
