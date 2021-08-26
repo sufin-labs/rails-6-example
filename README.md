@@ -1,12 +1,19 @@
 # Setup
 
 bundle install
+
 yarn install --check-files
-rails
+
+rails db:create
+
+Run:
+rails db:migrate
+
 rails s
 
-# Port 3000
+Port 3000
 
+# Deep-Cover
 
 The [list of commits](https://github.com/deep-cover/rails-6-example/commits/master) shows how to create a new Rails app from scratch and [installing `deep-cover`](https://github.com/deep-cover/rails-6-example/commit/36587a2ce8dcade5b913fb212bde06eb9ac9c6f1).
 
